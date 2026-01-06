@@ -9,7 +9,7 @@ from openai import OpenAI
 # --- CONFIGURATION ---
 # We check the "NGO/Development" and "General" categories for Consultants
 URLS = [
-    "https://jobs.bdjobs.com"
+    "https://bdjobs.com"
 ]
 
 KEYWORDS = [
