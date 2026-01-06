@@ -37,6 +37,11 @@ jobs:
         run: |
           git config --global user.name "BdJobs Bot"
           git config --global user.email "bot@github.com"
+          
+          # --- FIX: Force create the file if missing ---
+          touch history.txt
+          # ---------------------------------------------
+          
           git add history.txt
           git commit -m "Update history" || exit 0
           git push
