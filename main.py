@@ -13,10 +13,8 @@ URLS = [
 ]
 
 KEYWORDS = [
-    "Individual Consultant", "SIC", "Consultant", "National Consultant", 
-    "Individual Local Consultant", "Local Consultant", "Environment", 
-    "Environmental", "Natural", "Disaster", "Water", "Expert", 
-    "Monitoring", "Evaluation", "Specialist"
+    "Individual Consultant", "SIC", "Consultant", "National Consultant", "Individual Local Consultant", "Local Consultant", "Environment", 
+    "Environmental", "Natural", "Disaster", "Water", "Expert", "Program", "Project", "Coordinator", "Manager", "Climate", "Monitoring", "Evaluation", "Specialist"
 ]
 
 HISTORY_FILE = "history.txt"
