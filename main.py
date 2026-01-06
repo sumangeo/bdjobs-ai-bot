@@ -106,7 +106,7 @@ def check_bdjobs():
 
                 # 3. Create Unique ID
                 relative_link = title_tag['href']
-                full_link = urllib.parse.urljoin("https://jobs.bdjobs.com/", relative_link)
+                full_link = urllib.parse.urljoin("https://bdjobs.com", relative_link)
                 job_id = hashlib.md5(full_link.encode()).hexdigest()
                 
                 # 4. Check History (Skip if old)
